@@ -1,0 +1,5 @@
+sqlite> create table company_info(company_reg_id int primary key, company_name text, company_valuation_billion real, emp
+loyee_count int);
+sqlite>
+sqlite> create table company_spec(company_id int, num_of_emp int, company_focus text, foreign key (company_id) references company_info(company_reg_id));
+sqlite>
