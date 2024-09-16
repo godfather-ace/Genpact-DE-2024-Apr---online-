@@ -1,0 +1,36 @@
+AWS buckett commands
+
+aws --version
+>aws configure
+aws ec2 describe-regions
+
+python -m venv aws_python_venv
+.\aws_python_venv\Scripts\activate
+pip3 install awscli
+
+##copy command
+aws s3 cp practo111.txt s3://gensky786
+
+##renaming file storing file from s3 to local system.
+aws s3 cp s3://gensky786/practo111.txt modpracto111.txt
+
+##moving file from local system to s3 cloud
+aws s3 mv modpracto111.txt s3://gensky786/modpracto111.txt
+
+#remove file
+aws s3 rm s3://gensky786/practo111.tx
+
+#list the filesin s3
+aws s3 ls s3://gensky786
+
+#sync command
+aws s3 sync s3://gensky786 ./
+This comm automatically stores file from s3 to local system
+
+aws s3 sync ./ s3://gensky786 
+This comm opp to above comm
+
+# deletes the recursive files
+aws s3 rm s3://gensky786 --recursive
+
+aws s3 rm s3://gensky786 --recursive --exclue

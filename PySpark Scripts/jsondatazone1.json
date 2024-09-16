@@ -1,0 +1,82 @@
+[
+  {
+    "product_id": "CPG001",
+    "product_name": "Toothpaste",
+    "brand": "Colgate",
+    "price": 2.99,
+    "quantity": 100,
+    "expiry_date": "2024-08-01"
+  },
+  {
+    "product_id": "CPG002",
+    "product_name": "Shampoo",
+    "brand": "Head & Shoulders",
+    "price": 4.49,
+    "quantity": 80,
+    "expiry_date": "2024-10-01"
+  },
+  {
+    "product_id": "CPG003",
+    "product_name": "Dish Soap",
+    "brand": "Dawn",
+    "price": 1.99,
+    "quantity": 120,
+    "expiry_date": "2025-01-01"
+  },
+  {
+    "product_id": "CPG004",
+    "product_name": "Laundry Detergent",
+    "brand": "Tide",
+    "price": 8.99,
+    "quantity": 50,
+    "expiry_date": "2025-03-01"
+  },
+  {
+    "product_id": "CPG005",
+    "product_name": "Paper Towels",
+    "brand": "Bounty",
+    "price": 6.49,
+    "quantity": 70,
+    "expiry_date": "2025-06-01"
+  },
+  {
+    "product_id": "CPG006",
+    "product_name": "Cereal",
+    "brand": "Kellogg's",
+    "price": 3.79,
+    "quantity": 90,
+    "expiry_date": "2024-11-01"
+  },
+  {
+    "product_id": "CPG007",
+    "product_name": "Bottled Water",
+    "brand": "Dasani",
+    "price": 0.99,
+    "quantity": 150,
+    "expiry_date": "2024-12-01"
+  },
+  {
+    "product_id": "CPG008",
+    "product_name": "Granola Bars",
+    "brand": "Nature Valley",
+    "price": 2.49,
+    "quantity": 110,
+    "expiry_date": "2024-09-01"
+  },
+  {
+    "product_id": "CPG009",
+    "product_name": "Hand Soap",
+    "brand": "Softsoap",
+    "price": 1.29,
+    "quantity": 100,
+    "expiry_date": "2024-07-01"
+  },
+  {
+    "product_id": "CPG010",
+    "product_name": "Aluminum Foil",
+    "brand": "Reynolds Wrap",
+    "price": 3.99,
+    "quantity": 80,
+    "expiry_date": "2025-02-01"
+  }
+]

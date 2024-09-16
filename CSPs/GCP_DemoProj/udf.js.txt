@@ -1,0 +1,9 @@
+function transform(line) {
+    var values = line.split(',')
+    var obj = new Object();
+    obj.Product_Name = values[0];
+    obj.Brand = values[1];
+    obj.Category = values[2];
+    var jsonString = JSON.stringify(obj); 
+    return jsonString;
+}

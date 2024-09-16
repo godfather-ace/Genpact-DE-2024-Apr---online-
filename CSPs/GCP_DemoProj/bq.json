@@ -1,0 +1,17 @@
+{
+    "BigQuery Schema": [
+      {
+        "name": "Product_Name",
+        "type": "STRING"
+      },
+      {
+        "name": "Brand",
+        "type": "STRING"
+      },
+      {
+        "name": "Category",
+        "type": "STRING"
+      }
+    ]
+}
+    
