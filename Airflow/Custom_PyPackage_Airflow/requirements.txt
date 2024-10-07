@@ -1,0 +1,5 @@
+pandas
+matplotlib
+seaborn
+scikit-learn
+apache-airflow-providers-amazon
